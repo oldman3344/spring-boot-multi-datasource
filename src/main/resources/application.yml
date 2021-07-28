@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    mysqluserone:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/datasource_one?characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
+    mysqlusertwo:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      jdbc-url: jdbc:mysql://localhost:3306/datasource_two?characterEncoding=UTF-8&serverTimezone=UTC
+      username: root
+      password: 123456
